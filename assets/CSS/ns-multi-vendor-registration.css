@@ -1,0 +1,111 @@
+/*IF USER NOT LOGGED IN*/
+.ns_form_vendor_registration{
+    width: 60%;
+}
+#ns-submit-become-vendor-mmv{
+    width: 70%;
+    margin: 0 15%;
+}
+.ns-center{
+    margin: 0 auto;
+}
+.ns-hide{
+    display: none;
+}
+.ns-margin-error{
+    border: 2px solid red !important;
+}
+.ns-error-msg {
+    margin: 10px 15%;
+    padding: 7px;
+    border-radius: 3px 3px 3px 3px;
+    color: #D8000C;
+    background-color: #FFBABA;
+    width: 70%;
+    
+}
+.ns-success-msg{
+    margin: 10px 15%;
+    padding: 7px;
+    border-radius: 3px 3px 3px 3px;
+    color: #270;
+    background-color: #DFF2BF;
+    width: 70%;
+    
+}
+.ns-green{
+	color: green;
+}
+.ns-red{
+	color: red;
+}
+.ns-pointer{
+	cursor: pointer;
+}
+.ns-div-container-order-details{
+    width: 20%;
+    float: left;
+}
+.ns-container-order-details{
+    min-height: 200px;
+}
+/*IF USER IS LOGGED IN*/
+.ns_mmv_filters_container{
+    margin-bottom: 30px;
+    display: block;
+}
+.ns_mmv_single_filters{
+    float: left;
+    width: 33%;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center
+}
+.ns-center-div{
+    margin: 0 auto;
+}
+.ns-mmv-account-details{
+    width: 100%;
+    display: flex;
+    
+}
+.ns-mmv-account-details-inputs{
+    width: 33%;
+    float: left;
+    padding: 20px;
+    /* display: flex;
+    align-items: center; */
+}
+.ns_form_vendor_registration input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .ns_mmv_single_filters{
+        width: 100%;
+        margin: 0 auto;
+        height: unset;
+    }
+    .ns-div-container-order-details{
+        width: 100%;
+    }
+    .ns-mmv-account-details{
+        display: block;
+    }
+    .ns-mmv-account-details-inputs{
+        width: 100%;
+        margin: 0 auto;
+        height: unset;
+    }
+    
+    
+}
+@media screen and (max-width: 768px) {
+    #ns-details-submit, #ns-filter-orders-submit, .ns-center-div{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,449 @@
+#ns-container-add-product-frontend{
+	width: 100%;
+	height: auto;
+	float:left;
+	background-color:#f4f4f4;
+	padding: 2%;
+}
+
+#ns-title{
+	
+}
+
+#ns-regular-price, #ns-sale-price{
+	width: 20%;
+	margin: 10px;
+}
+
+.ns-little-box{
+	background-color: #fff;
+	width: 50%;
+	border: 1px solid #e3e3e3;	
+}
+
+.ns-little-box div, h2{
+	text-align: center;
+}
+
+
+.ns-link{
+	color: #00a0d2;
+	text-decoration: none;
+}
+
+.ns-add-product-frontend-span-text{
+	font-style: italic;
+	font-size: small;
+}
+
+.ns-big-box{
+	background-color: #fff;
+	height:auto;
+	border: 1px solid #e3e3e3;
+	padding: 15px;
+	margin-bottom: 15px;	
+	width: 100%;
+	float: left;
+	line-height: 5px;
+}
+
+#ns-short-desc-text, #ns-post-content-text{
+	line-height: 16px;
+}
+
+#ns-product-data-container{
+	float: left;
+	line-height: 15px;
+}
+
+#ns-short-desc-container{
+	width: 100%;
+	padding: 15px;
+}
+
+#ns-add-attribute-btn{
+	float: left;
+	margin-top: 10px;
+}
+
+.ns-little-container{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#ns-product-tags{
+    float: left;
+}
+
+#ns-product-categories{
+    float: left;
+}
+
+#ns-img-thumbnail{
+	border: 3px solid #e3e3e3;
+}
+
+#ns-product-gallery{
+    float: left;
+}
+
+#ns-myBtn{
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	display: block;
+}
+
+#ns-product-data-inner-container{
+	padding-left: 0px;
+	height:auto;
+	float: left;
+	display: inline-flex;
+	width: 100%;
+}
+
+.ns-left{
+	float: left;
+	display: inline-flex;
+}
+
+.ns-border-margin{
+	border: 1px solid #e3e3e3;
+	margin: 10px;	
+}
+
+.ns-margin-right{
+	margin-right:15px;
+}
+
+.ns-padding-container{	
+	padding: 10px;
+}
+
+.ns-left-list-data-container ul li{
+	list-style-type: none; 
+	padding: 10%;
+	margin-bottom: 0px;
+}
+
+.ns-left-list-data-container ul li:hover{
+	cursor: pointer;
+	background-color: #eee;
+}
+
+.ns-left-list-data-container{
+	background-color: #fafafa;
+	border-right: 1px solid #eee;	
+	width: 20%;
+	float: left;
+	line-height: 4px;
+	padding: 0 0 10px;
+	position: relative;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.ns-prod-data-tab{
+	float: left;
+	width: 80%;
+	display: inline-block;
+}
+
+.ns-prod-data-tab div{
+	float: left;
+	display: block;
+	border-bottom: 1px solid #e3e3e3;
+	width: inherit;
+	padding-bottom: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+.ns-prod-data-tab textarea{
+	display: block;
+	width: 90%;
+	line-height: 16px;
+	margin: 10px 10px 10px 0px;
+}
+
+.ns-prod-data-tab div:first-child{
+	margin-top: 2%;
+}
+
+.ns-prod-data-tab div:last-child{
+	border-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.ns-input-width{
+	width: 35% !important;
+	margin: 10px 10px 0px 0px !important;
+}
+
+
+.ns-active{
+	background-color: #e3e3e3;
+}
+
+.ns-inline-flex{
+	display: inline-flex;
+	height: 130px;
+	width: 15%;
+}
+
+.ns-display-block{
+	display: block;
+}
+
+#ns-image-container1 img{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	float: none;
+	padding: 4px;
+	background-color: white;
+	border: 1px solid gray;
+}
+
+.ns-margin-top{
+	margin-top: 10px;
+}
+
+.ns-image-container{
+	white-space: initial;
+}
+
+.ns-image-container img{
+	width: 100%;
+	padding: 4px;
+	background-color: white;
+	cursor: pointer;
+	border: 1px solid gray;
+}
+
+
+.ns-modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.ns-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+
+.ns-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.ns-close:hover,
+.ns-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ns-wp-editor-div, #ns-wp-post-content-div, 
+#ns-prod-tags-div, #ns-image-container-0,
+ #ns-prod-cat-inner, #ns-prod-gallery-inner, #ns-product-data-inner-container {
+	display: none;
+}
+
+#ns-short-desc-container div, #ns-post-content div{
+	text-align: center;
+}
+
+#ns-product-tags, #ns-product-gallery, #ns-image-container, #ns-product-categories{
+   height: 100%;
+   padding: 15px;
+}
+
+#ns-prod-gallery-inner p{
+	margin-bottom: 20px;
+}
+
+.ns-pointer{
+	cursor: pointer;
+}
+
+.ns-center{
+	text-align: center;
+}
+
+.ns-hidden{
+	display: none !important;
+	visibility: hidden !important;
+}
+
+#ns-prod-cat-inner td, th{
+	padding: 4px;
+}
+
+.ns-ctbc-section-container{
+	background-color: #fff;
+	padding: 15px;
+	width: calc(100% - 350px);
+	border-left: 10px solid #6BAA01;
+	margin-bottom: 10px;
+	border-radius: 7px;
+}
+
+.genRowNssdc hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.ns-ctbc-section-container label{
+	font-weight: bold;
+}
+
+.ns-ctbc-color{
+	color: #6BAA01;
+}
+
+.ns-ctbc-description{
+	font-weight: bold;
+	color: #898989 !important;
+}
+
+.ns-ctbc-section-container .ns-ctbc-container{
+	display: inline;
+	margin-left: 10px;
+}
+
+/* The container */
+.ns-ctbc-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+.ns-ctbc-container input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.ns-ctbc-checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+	background-color: #fff;
+	border: 1px solid #6BAA01;
+}
+
+/* When the checkbox is checked, add a green background */
+.ns-ctbc-container input[type="checkbox"]:checked ~ .ns-ctbc-checkmark {
+    background-color: #6BAA01;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.ns-ctbc-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.ns-ctbc-container input[type="checkbox"]:checked ~ .ns-ctbc-checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.ns-ctbc-container .ns-ctbc-checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.button-primary.ns-ctbc-submit-button{
+	background: #6BAA01;
+	border-color: #6BAA01;
+	box-shadow: none;
+	text-shadow: none;
+	height: 35px;
+	font-size: 14px;
+	transition: all 0.2s ease 0s;
+}
+
+.button-primary.ns-ctbc-submit-button:hover{
+	background: #5c9101;
+	border-color: #5c9101;
+	box-shadow: none;
+}
+
+.button-primary.ns-ctbc-submit-button:active, .button-primary.ns-ctbc-submit-button:focus{
+	background: #5c9101;
+	border-color: #5c9101;
+	box-shadow: inset 0 2px 0 #5c9101;
+	box-shadow: none;
+}
+
+.ns-ctbc-notice-error{
+	color: #ad0005 !important;
+}
+.ns-table-border{
+	border-bottom: 1px solid #000000;
+	border-collapse: collapse;
+}
+.ns-red{
+	color: red;
+}
+.ns-green{
+	color:	green;
+}
+.ns-mmv-settings-admin{
+	width: 50%;
+}
+.ns-mmv-settings-admin #ns-mmv-percentage{
+	width: 70px;
+}
+.ns-mmv-settings-admin #ns-mmv-contact-mail{
+	width: 300px;
+}
+.ns-cursor{
+	cursor: pointer;
+}
+#ns-wpfooter{
+	position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+	color: #555d66;
+	margin-left: 160px;
+}

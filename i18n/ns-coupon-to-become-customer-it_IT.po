@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-03-06 17:25+0100\n"
+"PO-Revision-Date: 2019-03-06 17:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ns-admin-options/inc.php:22
+msgid "- Create custom and unique coupons"
+msgstr "- Crea coupon unici"
+
+#: ns-admin-options/inc.php:23
+msgid "- Save who received coupon (mail address)"
+msgstr "- Salva chi riceve il coupon (E-mail)"
+
+#: ns-admin-options/inc.php:24
+msgid "- Show/hide coupon in PopUp"
+msgstr "- Mostra/nascondi coupon nel PopUp"
+
+#: ns-admin-options/inc.php:25
+msgid "- Show/hide \"name\" text field"
+msgstr "- Mostra/nascondi il campo “nome”"
+
+#: ns-admin-options/inc.php:26
+msgid "- Choose how long after cookie expire"
+msgstr "- Scegli dopo quanto tempo cancellare il cookie"
+
+#: ns-admin-options/ns_admin_option_dashboard.php:29
+msgid "How to use"
+msgstr "Guida all’utilizzo"
+
+#: ns-admin-options/ns_admin_option_dashboard.php:36
+msgid "Premium features"
+msgstr "Funzionalità premium"
+
+#: ns-admin-options/ns_admin_option_dashboard.php:43
+msgid "Go Premium, get more features and support"
+msgstr "Installa la versione premium, avrai più funzioni e supporto"
+
+#: ns-admin-options/ns_admin_option_dashboard.php:44
+msgid ""
+"If you upgrade your plugin you will get one year of free updates and "
+"support\n"
+"\t\t\t\t\t\t\tthrough our website available 24h/24h. Upgrade and you'll have "
+"the advantage\n"
+"\t\t\t\t\t\t\tof additional features of the premium version."
+msgstr ""
+"Sei fai l’upgrade avrai un anno di aggiornamenti gratis e supporto\n"
+"\t\t\t\tdisponibile nel nostro sito 24h/24h. Fai l’Upgrade e avrai i "
+"vantaggi\n"
+"\t\t\t\tdelle funzioni addizionali e della versione premium."
+
+#: ns-admin-options/ns_admin_option_dashboard.php:47
+msgid "Go Premium Now"
+msgstr "Ottieni la premium ora"
+
+#: ns-admin-options/ns_admin_option_dashboard.php:61
+msgid "Save Changes"
+msgstr "Salva Modifiche"
+
+#: ns-admin-options/ns_settings_box_pro_version.php:8
+msgid "PREMIUM VERSION"
+msgstr "VERSIONE PREMIUM"
+
+#: ns-admin-options/ns_settings_box_pro_version.php:11
+msgid "ALL FREE VERSION FEATURES and:"
+msgstr "TUTTE LE FUNZIONALITA’ DELLA VERSIONE PREMIUM e:"
+
+#: ns-admin-options/ns_settings_box_pro_version.php:14
+msgid "UPGRADE!"
+msgstr "UPGRADE!"
+
+#: ns-admin-options/ns_settings_box_theme_promo.php:8
+msgid "JOIN NS CLUB"
+msgstr "UNISCITI A NS CLUB"
+
+#: ns-admin-options/ns_settings_box_theme_promo.php:12
+msgid "– Instant access to all plugins and all themes"
+msgstr "- Accesso istantaneo a tutti i temi e plugin"
+
+#: ns-admin-options/ns_settings_box_theme_promo.php:13
+msgid "– All future plugins and themes are included"
+msgstr "- Tutti i plugin e i temi futuri sono inclusi"
+
+#: ns-admin-options/ns_settings_box_theme_promo.php:14
+msgid "– Unlimited license for all NS products"
+msgstr "- Licenza illimitata per i prodotti NS"
+
+#: ns-admin-options/ns_settings_box_theme_promo.php:15
+msgid "– Unlimited download for each products"
+msgstr "- Download illimitati per questi prodotti"
+
+#: ns-admin-options/ns_settings_box_theme_promo.php:16
+msgid "– Super fast support"
+msgstr "- Supporto rapidissimo"
+
+#: ns-admin-options/ns_settings_box_theme_promo.php:17
+msgid "– Regular update"
+msgstr "- Aggiornamenti regolari"
+
+#: ns-admin-options/ns_settings_box_theme_promo.php:20
+msgid "DISCOVER MORE"
+msgstr "SCOPRI DI PIU’"
+
+#: ns-admin-options/ns_settings_custom.php:26
+msgid "Coupon Name"
+msgstr "Nome coupon"
+
+#: ns-admin-options/ns_settings_custom.php:29
+msgid "PopUp Title"
+msgstr "Titolo PopUp"
+
+#: ns-admin-options/ns_settings_custom.php:32
+msgid "PopUp Subtitle"
+msgstr "Sottotitolo PopUp"
+
+#: ns-admin-options/ns_settings_custom.php:39
+msgid "Enable Privacy Policy"
+msgstr "Abilita privacy policy"
+
+#: ns-admin-options/ns_settings_custom.php:42
+msgid "URL Privacy Policy"
+msgstr "URL Privacy Policy"
+
+#: ns-coupon-to-become-customer-modal.php:23
+msgid "Your coupon was successfully sent! Check your mail!"
+msgstr "Il tuo coupon è stato inviato! Controlla la tu mail!"
+
+#: ns-coupon-to-become-customer-modal.php:31
+msgid "An error occurred! Please check your inputs."
+msgstr "Errore! Per favore controlla i tuoi input."
+
+#: ns-coupon-to-become-customer-modal.php:54
+msgid "I have read and agree to the"
+msgstr "Ho letto e sono d’accordo con la"
+
+#: ns-coupon-to-become-customer-modal.php:55
+msgid "privacy policy"
+msgstr "privacy policy"
+
+#: ns-coupon-to-become-customer-modal.php:60
+msgid "Your name:"
+msgstr "Il tuo nome:"
+
+#: ns-coupon-to-become-customer-modal.php:63
+msgid "Your E-mail (required):"
+msgstr "La tua E-mail (obbligatoria):"
+
+#: ns-coupon-to-become-customer-modal.php:72
+msgid "SEND NOW!"
+msgstr "INVIA ORA!"
+
+#: ns-coupon-to-become-customer.php:90
+msgid "Premium Version"
+msgstr "Versione Pemium"
+
+#~ msgid "- "
+#~ msgstr "- "
+
+#~ msgid "COUPON SETTINGS"
+#~ msgstr "IMPOSTAZIONI COUPON"
+
+#~ msgid "Coupon valid for one person only or an unique coupon for all?"
+#~ msgstr ""
+#~ "Coupon valido per una sola persona o un unico coupon valido per tutti?"
+
+#~ msgid "Choose"
+#~ msgstr "Scegli"
+
+#~ msgid "One person only"
+#~ msgstr "Una persona sola"
+
+#~ msgid "Unique for all"
+#~ msgstr "Unico per tutti"
+
+#~ msgid "Coupon Name (not required if \"Unique for all\" choosed)"
+#~ msgstr "Codice Coupon (non richiesto se hai scelto “Unico per tutti”)"
+
+#~ msgid "POPUP SETTINGS"
+#~ msgstr "IMPOSTAZIONI POPUP"
+
+#~ msgid "Do you want to ask users their name?"
+#~ msgstr "Vuoi chiede agli utenti il loro nome?"
+
+#~ msgid "Yes"
+#~ msgstr "Sì"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "How long after remove the stored cookie? (hours)"
+#~ msgstr "Dopo quanto cancellare il cookie? (ore)"
+
+#~ msgid "Coupon was sent to:"
+#~ msgstr "Il coupon è stato mandato a:"

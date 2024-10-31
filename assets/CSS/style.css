@@ -1,0 +1,62 @@
+table.ns-table-dashboard-products th, table.ns-table-dashboard-products td{
+	text-align: center;
+}
+.ns-next-and-prev-div{
+	position: absolute;
+	font-size: 40px;
+	top: 100%;
+	text-align: center;
+	left: 48%;
+}
+
+.pagination {
+	display: inline-block;
+}
+  
+.pagination a {
+	color: black;
+	float: left;
+	padding: 0 16px;
+	text-decoration: none;
+}
+  
+.pagination a.active {
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 5px;
+}
+  
+.pagination a:hover:not(.active) {
+	background-color: #ddd;
+	border-radius: 5px;
+}
+.ns-coursor{
+	cursor: pointer;
+}
+.ns-deleting-product{
+	background: lightgrey;
+	opacity: 0.5;
+}
+.ns-hide{
+	display: none;
+}
+.ns-image-placeholder{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #000000;
+}
+#ns-wpfooter{
+	position: absolute;
+    bottom: 40;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+	color: #555d66;
+	margin-left: 160px;
+}
+#ns-become-vendor-registration-label{
+    margin-left: 0;
+}
+.ns-mmv-reg-custom-fields{
+	display: none;
+}

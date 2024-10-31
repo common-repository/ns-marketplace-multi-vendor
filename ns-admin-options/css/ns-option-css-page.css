@@ -1,0 +1,415 @@
+/**
+ * Checkbox Two
+ */
+.ns-ctbc-input {
+    display: block;
+    width: calc(100% - 350px);
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff !important;
+    background-image: none;
+    border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+
+.ns-ctbc-input:focus{
+	border-color: #6BAA01 !important;
+	box-shadow: 0 0 2px #6BAA01 !important;
+}
+
+ .ns-sue-div-container {
+	width: 120px;
+	height: 40px;
+	background: #333;
+	margin: 20px 0px;
+
+	border-radius: 50px;
+	position: relative;
+}
+
+.ns-sue-div-container #ns-sue-activate-on-product{
+    display: none;
+}
+
+/**
+ * Create the line for the circle to move across
+ */
+ .ns-sue-div-container:before {
+	content: '';
+	position: absolute;
+	top: 19px;
+	left: 14px;
+	height: 2px;
+	width: 90px;
+	background: #111;
+}
+
+/**
+ * Create the circle to click
+ */
+ .ns-sue-div-container label {
+	display: block;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 9px;
+	z-index: 1;
+	left: 12px;
+	background: #ddd;
+}
+
+/**
+ * Create the click event for the checkbox
+ */
+ .ns-sue-div-container input[type=checkbox]:checked + label {
+	left: 84px;
+	background: #008ec2;
+}
+
+/*Email Templates*/
+.ns-sue-template-preview{
+	margin-top: 20px;
+}
+
+.ns-sue-template-preview h2{
+	text-align: left;
+	padding-left: 0px !important;
+}
+
+.ns-sue-template-preview .ns-sue-template-img{
+	width: 35%;
+	height: auto;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.ns-sue-more-template{
+	width: 35%;
+	height: auto;
+	margin-top: 10px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.ns-sue-more-template img{
+	width: 100%;
+}
+
+.ns-sue-more-template img:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.ns-sue-template-active {
+    border: 4px solid #0073AA;
+    border-radius: 4px;
+}
+
+.ns-sue-more-template a, .ns-sue-more-template a:focus, .ns-sue-more-template a:active{
+	color: unset;
+	box-shadow: 0 0 0 0;
+}
+
+
+
+
+.colprofbpx4wp{
+	display: inline-block;
+	width: 42%;
+    padding: 20px;
+    padding-top: 0px;
+	padding-right: 40px;
+    border-right: 1px solid #eee;
+    line-height: 20px;
+}
+.colprofbpx4wp2{
+	vertical-align: top;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0px;
+    width: 42%;
+    line-height: 20px;
+}
+
+.titprofbpx4wp{
+    padding: 0px 10px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.nsproversionfbpx4wp{
+	width: calc(100% - 350px);
+	padding: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.titlefbpx4wp {
+	margin-bottom: -15px;
+}
+.titlefbpx4wp2 {
+	margin-bottom: -25px;
+}
+
+.verynsbigboxcontainer {
+	
+}
+
+.verynsbigbox {
+	width: 277px;
+	height: auto;
+	padding: 10px;
+	float: right;
+	margin-top: 8px;
+}
+
+.nsbigbox {
+	width:275px; 
+	height: auto;
+	background: #fff;
+	border: 1px solid #6BAA01;
+	border-radius: 7px;
+	color: #848481;
+}
+
+.nsbigbox-orange {
+	width:275px; 
+	height: auto;
+	background: #fff;
+	border: 1px solid #FBB02D;
+	border-radius: 7px;
+	color: #848481;
+}
+
+.titlensbigbox {
+	color: #fff;
+	width: 235px;
+	background: #6BAA01;
+	padding: 1px 20px;
+	text-align: center;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.titlensbigbox-orange {
+	color: #fff;
+	width: 235px;
+	background: #FBB02D;
+	padding: 1px 20px;
+	text-align: center;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.contentnsbigbox {
+	width: 235px;
+	padding: 20px 20px 30px 20px;
+}
+
+.contentnsbigbox p {
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+a.linkBigBoxNS {
+	text-decoration: none;
+	color: #848481;
+}
+
+.buttonNsbigbox {
+	cursor: pointer;
+	height: 36px;
+	border: 1px solid #6BAA01;
+	background: #fff;
+	text-align: center;
+    margin: 0 auto;
+    padding: 15px 20px 0px 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.buttonNsbigbox-orange {
+	cursor: pointer;
+	height: 36px;
+	border: 1px solid #FBB02D;
+	background: #fff;
+	text-align: center;
+    margin: 0 auto;
+    padding: 15px 20px 0px 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.buttonNsbigbox:hover {
+	color: #fff;
+	height: 36px;
+	border: 1px solid #6BAA01;
+	background: #6BAA01;
+	text-align: center;
+    margin: 0 auto;
+    padding: 15px 20px 0px 20px;
+    font-size: 18px;
+}
+
+.buttonNsbigbox-orange:hover {
+	color: #fff;
+	height: 36px;
+	border: 1px solid #FBB02D;
+	background: #FBB02D;
+	text-align: center;
+    margin: 0 auto;
+    padding: 15px 20px 0px 20px;
+    font-size: 18px;
+}
+
+.buttonNsEmail {
+	width: 100%;
+	height: 52px;
+	line-height: 36px;
+	border: 1px solid #6BAA01;
+	background: #6BAA01;
+	padding: 0 20px;
+    font-size: 18px;
+	margin: 15px auto;
+    border-radius: 7px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.buttonNsEmail-orange {
+	width: 100%;
+	height: 52px;
+	line-height: 36px;
+	border: 1px solid #FBB02D;
+	background: #FBB02D;
+	padding: 0 20px;
+    font-size: 18px;
+	margin: 15px auto;
+    border-radius: 7px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.nscenterbannerone {
+	text-align: center;
+}
+/* additional classes */
+
+.nsbigboxtheme {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	width:275px; 
+	height: auto;
+	background: #fff;
+	border: 1px solid #6BAA01;
+	border-radius: 7px;
+	color: #848481;
+}
+
+.nsbigboxtheme-orange {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	width:275px; 
+	height: auto;
+	background: #fff;
+	border: 1px solid #FBB02D;
+	border-radius: 7px;
+	color: #848481;
+}
+.imgnsbigbox {
+	width: 235px;
+	height: auto;
+}
+
+.ns-container-title-arrow {
+	width: 100%;
+}
+
+.ns-arrows-float-right {
+	float: right;
+}
+#nsraclinkpremium {
+	color: #d54e21;
+	font-weight: bold;
+}
+
+.arrows {
+  position: relative;
+  position: absolute;
+  top: 27%;
+/*  left: 50%;*/
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.arrows:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-left: 4px solid #60a007;
+  border-bottom: 4px solid #60a007;
+  transform: translate(4px, 106.66667px) rotate(-135deg);
+  animation: arrows 1.5s linear infinite;
+}
+
+.arrows:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-left: 4px solid #60a007;
+  border-bottom: 4px solid #60a007;
+  transform: translate(53.33333px, 0px) rotate(-135deg);
+  animation: arrows 1.5s linear infinite -0.75s;
+}
+
+
+@keyframes arrows {
+  0% {
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    transform: translate(-53.33333px, -13.33333px) rotate(-135deg);
+  }
+  10%, 90% {
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+  }
+  50% {
+    border-left: 4px solid #60a007;
+    border-bottom: 4px solid #60a007;
+    transform: translate(0px, -13.33333px) rotate(-135deg);
+  }
+  100% {
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    transform: translate(53.33333px, -13.33333px) rotate(-135deg);
+  }
+}
+@media screen and (max-width: 1280px) {
+.arrows {
+	display: none;
+}
+.ns-hidepremiumfeature{
+	display: none;
+}
+}
